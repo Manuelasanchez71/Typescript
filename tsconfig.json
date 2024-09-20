@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",                          // Versión de ECMAScript de salida
+    "module": "commonjs",                        // Sistema de módulos
+    "rootDir": "./src",                          // Directorio raíz de los archivos TypeScript
+    "outDir": "./dist",                          // Directorio de salida de los archivos compilados
+    "esModuleInterop": true,                     // Interoperabilidad con módulos de ES
+    "forceConsistentCasingInFileNames": true,    // Asegura el uso correcto de mayúsculas en los nombres de archivos
+    "strict": true,                              // Habilita todas las comprobaciones estrictas
+    "skipLibCheck": true                         // Omitir la comprobación de archivos de declaración de tipos
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
